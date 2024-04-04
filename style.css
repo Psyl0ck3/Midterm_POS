@@ -1,0 +1,160 @@
+/* hex codes:
+#FDF8E8 -WHITEBROWN
+#FF3131-TOMATO
+#00BF63-gREEN */
+
+
+body {
+    background-color: #FDF8E8;
+}
+
+.logo {
+    width: 10%;
+    margin-left: 55px;
+    
+}
+.foodchoice {
+    margin-top: 2%;
+}
+.choice {
+    display:flex;
+    margin-left: 2%;
+    padding: 10px;
+    width: 87%;
+    
+    
+}
+.choice-2 {
+    display:flex;
+    margin-left: 2%;
+    padding: 10px;
+    
+    
+}
+
+.choice h4 {
+    width: 200px;
+    text-align: center;
+    
+}
+
+.choice h5 {
+    color: #FF3131;
+    font-weight: 800;
+}
+.pastapic {
+    width: 190px;
+    height: 190px;
+    margin-left: 3%;
+}
+
+.content-box {
+    margin-left: 20px;
+    border: 1px solid;
+    width: 350px;
+    height: 430px;
+    justify-items: center;
+    border-radius: 20px;    
+    
+ 
+}
+
+.content {
+    margin-left: 65px;
+    
+}
+
+.quantity_section {
+    padding-top: 4px;
+    padding-bottom: 14px;
+}
+
+.quantity_input_area {
+    width: 210px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.buttons {
+    background: transparent;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 75%;
+    height: 40px;
+    font-size: 130%;
+    font-weight: bolder;
+    outline: none;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    
+}
+
+
+  
+  .buttons:hover {
+    transition: 0.4s ease-in-out;
+    background: rgba( 26, 209, 121, 0.8 );;
+  }
+  
+
+
+.order-section {
+    
+    border-radius: 10px;
+    margin-top: -239%;
+    margin-left: 230%;
+    width: 150%;
+    height: 1050px;   
+    background: rgba(225, 222, 207, 0.75);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.order-content {
+    width: 100%;
+}
+.order-section h1 {
+    text-align: center;
+}
+
+.total-section {
+    height: 20%;
+    margin-top: 76%;
+    padding: 2px;
+    border-top: 1px solid;
+    
+}
+.tb_total {
+    width: 91%;
+    height: 50px;
+    margin-left: 3%;
+    border-radius: 10px;
+}
+.button_paying {
+    padding: 10px;
+}
+.buttons_pay {
+    width: 15%;
+    border-radius: 10px;
+    margin-left: 80%;
+    background-color: #00BF63;
+    color: #FDF8E8;
+    
+}
+
+
+.order-area {
+    border-top: 1px solid;
+    height: 100px;
+    padding: 2px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 150%;
+    
+}
